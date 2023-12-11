@@ -26,7 +26,7 @@ from urllib.request import urlretrieve, urlopen
 from uuid import uuid4
 
 logging.basicConfig(
-    level=logging.DEBUG, stream=sys.stdout, format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.debug, stream=sys.stdout, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 if not sys.platform.startswith("linux"):
